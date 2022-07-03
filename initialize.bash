@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update -y \
-&& sudo apt install -y curl git \
+&& sudo apt install -y curl git acl \
 && sudo apt install nginx -y \
 && sudo apt install software-properties-common -y\
 && sudo add-apt-repository ppa:ondrej/php -y \
